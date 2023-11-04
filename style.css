@@ -1,0 +1,25 @@
+body,button{
+    font-family: 'Common Pixel', 'Sans-Serif';
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /*repeat creates 3 different auto width columns */
+    width: 600px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: 'Common Pixel', sans-serif;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 1px 1px #333333;
+    border: 1px solid black;
+    cursor: pointer; /*makes the cursor become a pointer when hovering the element*/
+    font-size: 50px;
+    line-height: 100px;
+}
